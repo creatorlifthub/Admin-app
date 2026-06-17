@@ -1,0 +1,30 @@
+CreatorLift Admin APK - Cloud Build Guide
+
+1. Create a new GitHub repository:
+   creatorlift-admin-app
+
+2. Upload ALL files from this folder to the root of that repository.
+   Important: settings.gradle must be visible in the main root page of the repo.
+
+3. Go to GitHub > Actions tab.
+
+4. Open "Build CreatorLift Admin APK".
+
+5. Click "Run workflow".
+
+6. Wait 2-5 minutes.
+
+7. Open the completed workflow run.
+
+8. Scroll down to "Artifacts".
+
+9. Download "CreatorLift-Admin-APK".
+
+10. Extract the downloaded ZIP. Inside it you will get the APK file.
+
+Install APK on Android:
+- Send APK to phone.
+- Tap APK.
+- Allow "Install unknown apps" when Android asks.
+- Install.
+- Login with Supabase admin email/password.
